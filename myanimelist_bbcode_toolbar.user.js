@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         MyAnimeList BBCode Toolbar
 // @namespace    https://github.com/eskander
-// @version      2020-08-19-1
+// @version      2021-01-01
 // @description  Advanced BBCode Editor for MyAnimeList.net
 // @author       eskander
 // @license      MIT
@@ -135,7 +135,7 @@
         GM_addStyle(`
             #myBBcode {
                 background-color: #4f74c8 !important;
-                width: 1060px !important;
+                min-width: 750px !important;
             }
 
             .bbcbtn {
